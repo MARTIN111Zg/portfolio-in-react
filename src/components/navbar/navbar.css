@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0 0 0;
+}
+
+.navbar_container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #333;
+    padding-bottom: .5rem;
+
+
+}
+
+.navbar_logo {
+    border: 2px solid #000;
+    color: #000;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    font-weight: bolder;
+}
+
+.navbar_items {
+    list-style: none;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+
+}
+
+.navbar_link {
+    font-size: 2.2rem;
+    color: #000;
+    transition: all 3s linear;
+}
+
+.navbar_link:hover {
+    color: gold;
+    transform: translateX(-1rem);
+}
